@@ -1,0 +1,48 @@
+body {
+    background-image: url(background.png);
+    text-align: center;
+    background-size: cover;
+}
+
+
+.div1 {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  overflow: auto;
+  width: fit-content;
+  height: 500px;
+  position: fixed;
+  top: 200px;
+  left: 750px;
+}
+
+.div1{
+  background: rgba(255, 255, 255, 0.33);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.3px);
+  -webkit-backdrop-filter: blur(12.3px);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.button {
+  margin: 0;
+  position: fixed;
+  top: 400px;
+  left: 230px;
+}
+
+.button {
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(41, 128, 243);
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: rgb(12, 8, 8);
+}
